@@ -1,0 +1,5 @@
+add_library (ocllib SHARED ocllib.c)
+add_library (utils SHARED utils.c)
+if(UNIX)
+  target_link_libraries (utils LINK_PUBLIC m)
+endif(UNIX)

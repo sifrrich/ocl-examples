@@ -1,0 +1,66 @@
+.
+├── lin
+│   ├── include
+│   │   ├── clAmdBlas.h
+│   │   ├── clAmdBlas.version.h
+│   │   ├── clAmdFft.h
+│   │   ├── clAmdFft.version.h
+│   │   ├── clBLAS-complex.h
+│   │   ├── clBLAS.h
+│   │   ├── clBLAS.version.h
+│   │   ├── clFFT.h
+│   │   └── clFFT.version.h
+│   ├── lib
+│   │   ├── libclBLAS.so
+│   │   ├── libclBLAS.so.2
+│   │   ├── libclBLAS.so.2.4.0
+│   │   ├── libclFFT.so
+│   │   ├── libclFFT.so.2
+│   │   ├── libclFFT.so.2.2.0
+│   │   ├── libStatTimer.so
+│   │   ├── libStatTimer.so.2
+│   │   ├── libStatTimer.so.2.2.0
+│   │   └── pkgconfig
+│   │       ├── clBLAS.pc
+│   │       └── clFFT.pc
+│   └── lib64
+│       ├── libclBLAS.so
+│       ├── libclBLAS.so.2
+│       ├── libclBLAS.so.2.4.0
+│       ├── libclFFT.so
+│       ├── libclFFT.so.2
+│       ├── libclFFT.so.2.2.0
+│       ├── libStatTimer.so
+│       ├── libStatTimer.so.2
+│       ├── libStatTimer.so.2.2.0
+│       └── pkgconfig
+│           ├── clBLAS.pc
+│           └── clFFT.pc
+├── tree
+└── win
+    ├── include
+    │   ├── clAmdBlas.h
+    │   ├── clAmdBlas.version.h
+    │   ├── clAmdFft.h
+    │   ├── clAmdFft.version.h
+    │   ├── clBLAS-complex.h
+    │   ├── clBLAS.h
+    │   ├── clBLAS.version.h
+    │   ├── clFFT.h
+    │   └── clFFT.version.h
+    ├── lib
+    │   ├── clBLAS.dll
+    │   ├── clBLAS.lib
+    │   ├── clFFT.dll
+    │   ├── clFFT.lib
+    │   ├── StatTimer.dll
+    │   └── StatTimer.lib
+    └── lib64
+        ├── clBLAS.dll
+        ├── clBLAS.lib
+        ├── clFFT.dll
+        ├── clFFT.lib
+        ├── StatTimer.dll
+        └── StatTimer.lib
+
+10 directories, 53 files
